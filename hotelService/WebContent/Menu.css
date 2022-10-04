@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+nav {width: 100%}
+	
+a {text-decoration: none; color: #000;}
+
+.menu_content{display: flex; justify-content: space-around; width: 100%; list-style: none;}
+
+ul{background-color: #BE8C63; margin:2rem 0rem; padding:0rem; border-radius: 0.5rem;}
+li{margin:1rem; }
+li a{color: #F8EDE3; font-weight: 900;}
+
+

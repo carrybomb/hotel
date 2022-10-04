@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+.main_header {
+	height: 211px;
+	width: 100%;
+	background-color: #F8EDE3;
+}
+
+#header_title {
+	margin: 0;
+	padding: 0;
+	height: 4.4rem;
+	color: #BE8C63;
+	font-size: 5rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Dongle', sans-serif;
+}
+
+#header_hotel {
+	margin:0;
+	padding:0;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 5rem;
+	color: #BE8C63;
+	font-weight: bold;
+	font-family: 'Dongle', sans-serif;
+}
+
+.find_pw_title {
+	position: absolute;
+	margin-top: 8rem;
+	font-family: 'Dongle', sans-serif;
+	font-weight: bold;
+	font-size: 6rem;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.find_pw_box {
+	width: 20rem;
+	height: 10rem;
+	text-align: center;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%);
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.input_span {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+}
+
+.input {
+	width: 12rem;
+	height: 1.5rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.submit_button {
+	margin-top: 0.5rem;
+	text-align: center;
+	width: 6rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	background: #F8EDE3;
+	border-radius: 5px;
+	cursor: pointer;
+}

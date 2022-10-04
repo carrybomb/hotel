@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+.main_header {
+	height: 211px;
+	width: 100%;
+	background-color: #F8EDE3;
+}
+
+#header_title {
+	margin: 0;
+	padding: 0;
+	height: 4.4rem;
+	color: #BE8C63;
+	font-size: 5rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Dongle', sans-serif;
+}
+
+#header_hotel {
+	margin:0;
+	padding:0;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 5rem;
+	color: #BE8C63;
+	font-weight: bold;
+	font-family: 'Dongle', sans-serif;
+}
+
+#form_title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 5rem;
+	font-family: 'Dongle', sans-serif;
+	font-weight: bold;
+	font-size: 6rem;
+}
+
+.login_input {
+	width:20rem;
+	height: 10rem;
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.input_text {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+}
+
+.id_input {
+	width: 12rem;
+	height: 1.5rem;
+	margin-left: 0.8rem;
+	border-radius: 5px;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+}
+
+.pw_input {
+	width: 12rem;
+	height: 1.5rem;
+	border-radius: 5px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+}
+
+.submit {
+	width: 6rem;
+	height: 2rem;
+	margin-top: 1rem;
+	color: black;
+	background: #F8EDE3;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.other {
+	display: flex;
+	justify-content: center;
+	margin-top: 11rem;
+}
+
+.sign_up {
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	background: #F8EDE3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.find_pw {
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	background: #F8EDE3;
+	border-radius: 5px;
+	cursor: pointer;
+}

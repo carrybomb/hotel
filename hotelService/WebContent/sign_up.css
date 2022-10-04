@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+.main_header {
+	height: 211px;
+	width: 100%;
+	background-color: #F8EDE3;
+}
+
+#header_title {
+	margin: 0;
+	padding: 0;
+	height: 4.4rem;
+	color: #BE8C63;
+	font-size: 5rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Dongle', sans-serif;
+}
+
+#header_hotel {
+	margin:0;
+	padding:0;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 5rem;
+	color: #BE8C63;
+	font-weight: bold;
+	font-family: 'Dongle', sans-serif;
+}
+
+.text {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+}
+
+.sign_up_title {
+	position: absolute;
+	margin-top: 9rem;
+	font-family: 'Dongle', sans-serif;
+	font-weight: bold;
+	font-size: 6rem;
+	left:50%;
+	top: 17%;
+	transform: translate(-50%);
+	margin-bottom: 3rem;
+}
+
+.sign_up {
+	width: 30rem;
+	height: 20rem;
+	text-align: center;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%);
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.input_box {
+	margin-top: 2rem;
+}
+
+.id {
+	width: 12rem;
+	height: 1.5rem;
+	margin-left : 1.3rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.check_id {
+	position:absolute;
+	margin-top: 0.2rem;
+	margin-left: 0.5rem;
+	background: #F8EDE3;	
+	border-radius: 5px;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+.pw {
+	width: 12rem;
+	height: 1.5rem;
+	margin-left: 0.4rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.name {
+	width: 12rem;
+	height: 1.5rem;
+	margin-left : 2.4rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.tel {
+	width: 12rem;
+	height: 1.5rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.email {
+	width: 12rem;
+	height: 1.5rem;
+	margin-left : 0.8rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	border : 2px solid black;
+	border-radius: 5px;
+}
+
+.join {
+	margin-top: 0.2rem;
+	font-family: 'Dongle', sans-serif; 
+	font-size: 1.5rem;
+	background: #F8EDE3;
+	border-radius: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.list_box {
+	display: flex;
+	justify-content: center;
+}
+
+.text{
+	font-family: 'Dongle', sans-serif;
+	font-size: 2.3rem;
+	color: #BE8C63;
+	margin-left: 2rem;
+}
+
+.date_box {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2.3rem;
+	color: #BE8C63;
+	border: 2px solid #BE8C63;
+	border-radius: 10px;
+}
+
+.submit {
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.5rem;
+	color: #BE8C63;
+	background: #F8EDE3;
+	border: 2px solid #BE8C63;
+	border-radius: 10px;
+}

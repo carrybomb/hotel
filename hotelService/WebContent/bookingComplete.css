@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.text {
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+	color: #BE8C63;
+}
+
+.info {
+	margin: 0;
+}
+
+.button {
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+	color: #BE8C63;
+	background: #F8EDE3;
+	border: 2px solid #BE8C63;
+	border-radius: 10px;
+}

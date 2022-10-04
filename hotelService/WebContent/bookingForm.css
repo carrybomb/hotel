@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.info {
+	display: flex;
+	justify-content: center;
+	font-family: 'Dongle', sans-serif;
+	font-size: 2.3rem;
+	color: #BE8C63;
+}
+
+.option {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2.3rem;
+	color: #BE8C63;
+	margin-left: 1rem;
+	border: 2px solid #BE8C63;
+	border-radius: 10px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.booking {
+	font-family: 'Dongle', sans-serif;
+	font-size: 2rem;
+	color: #BE8C63;
+	background: #F8EDE3;
+	border: 2px solid #BE8C63;
+	border-radius: 10px;
+}
